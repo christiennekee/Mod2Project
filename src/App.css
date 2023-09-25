@@ -1,38 +1,209 @@
 .App {
   text-align: center;
+  background-color: rgb(196, 243, 255);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+header > h1{
+  font-size: 60px;
+}
+header > h3{
+  font-size: 32px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Nav{
+  font-size:30px;
+  margin-left: 40px;
+  margin-right: 40px;
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* .highlight{
+  text-shadow: 3px 5px 9px white;
+} */
+
+.prog-joke{
+  border: 10px solid black;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.set{
+  background-color:rgb(21, 152, 222);
+  width: 100px;
+  height: 70px;
+  left: 43%;
+}
+
+.gen-joke{
+  border: 10px solid black;
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  ;
+  
+  .btn1{
+    background-color: rgb(32, 153, 218);
+    height: 70px;
+    width: 120px;
+    left: 25%;
+    position: absolute;
+    bottom: 0%;
+    font-size: larger;
   }
-  to {
-    transform: rotate(360deg);
+  .reset{
+    background-color:rgb(26, 153, 218);
+    position: absolute;
+    bottom: 0%;
+    height: 70px;
+    width: 120px;
+    left: 43%;
+    font-size: larger;
   }
+  
+.btn2{
+  margin-left: 100px;
+  right: 25%;
+  background-color: rgb(26, 153, 218);
+  height: 70px;
+  width: 120px;
+  position: absolute;
+  bottom: 0%;
+  font-size: larger;
+}
+}
+
+ul{
+  list-style-type: none;
+}
+
+ /* electric joke */
+.rsp1-0{
+  background-image: url("https://img.freepik.com/free-vector/nuclear-explosion-city-cartoon-style_23-2148217256.jpg?w=2000");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  font-size: larger;
+  color: rgb(241, 227, 227);
+}
+.rsp2-0{
+  background-image: url("https://cdn.wallpapersafari.com/59/43/a6poq9.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color: aliceblue;
+  font-size: 20px;
+}
+.prompt0{
+  background-image: url("https://media1.tenor.com/images/c3ea323141032f4e06031d33fdb6a39d/tenor.gif?itemid=16512390");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color:white;
+  font-size: larger;
+}
+
+/* cinderella */
+.prompt1{
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.rMAcTC5Cn00w9Mj-ayZl5gHaHa&pid=Api&P=0&h=220");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color: white;
+}
+.rsp1-1{
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.9u_FBiOMfoPoY9K_GOIABAHaIY&pid=Api&P=0&w=300&h=300");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+}
+.rsp2-1{
+  background-image: url("https://www.thegreenhead.com/imgs/xl/massive-soccer-ball-xl.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color: white;
+}
+
+/* translation */
+.prompt2{
+  background-image: url("https://i.fbcd.co/products/resized/resized-750-500/37-0a622f4a64fea4d65ea67779289cafdf1e36d2422807ca40e3798db4c9553910.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+}
+.rsp1-2{
+  background-image: url("https://previews.123rf.com/images/blamb/blamb1303/blamb130300023/18564309-a-cartoon-man-suffers-from-extreme-constipation.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  font-size: 30px;
+  color: #e40707;
+}
+.rsp2-2{
+  background-image: url("https://i.imgflip.com/3g7x5t.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  font-size: larger;
+}
+
+/* teacher joke */
+.prompt3{
+  background-image: url("https://t3.ftcdn.net/jpg/00/92/13/74/360_F_92137489_WcFLYymmS6Lqxntkc5R3I5CniQ6Jb9Sy.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+}
+
+.rsp1-3{
+  background-image: url("https://png.pngtree.com/element_our/20190603/ourmid/pngtree-map-drawing-cartoon-decoration-image_1437860.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+}
+
+.rsp2-3{
+  background-image: url("https://c8.alamy.com/comp/EX2F44/a-cartoon-blue-atom-smiling-and-happy-EX2F44.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+}
+
+/* who I saw */
+.prompt4{
+  background-image: url("https://st.depositphotos.com/1695366/1391/v/950/depositphotos_13916619-stock-illustration-cartoon-woman-looking-through-binoculars.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color: #e50f1a;
+}
+.rsp1-4{
+  background-image: url("https://st2.depositphotos.com/1981013/7373/v/950/depositphotos_73734973-stock-illustration-a-lot-of-people-on.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color: white;
+  font-size: larger;
+}
+
+.rsp2-4{
+  background-image: url("https://media.gettyimages.com/id/455459791/vector/karate.jpg?s=612x612&w=gi&k=20&c=OUOjXEYdUj9nM0ESsDMtZdB7-eGUd343DgcLTa-I9Pk=");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: 600px 400px;
+  color: red;
 }
